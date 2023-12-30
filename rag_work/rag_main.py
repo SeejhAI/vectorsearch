@@ -14,7 +14,7 @@ model = genai.GenerativeModel(
     model_name='gemini-pro')
 
 response = model.generate_content(
-          'Can I use retrieval-augmented generation using makersuit of gemini pro and how?')
+          'Can I use retrieval-augmented generation using makersuit of gemini pro using python and how?')
 print(response.text)
     #  The opposite of hot is cold.'
         
